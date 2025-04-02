@@ -1,0 +1,39 @@
+.Calculator{
+    width: 600px;
+    height: 550px;
+    background-color: #3a3131;
+    border-radius: 10px;
+    margin: auto;    
+}
+.Calbody{
+    padding: 10px;
+}
+.result{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: end;
+    color: black;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.Calbuttons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.Calbuttons > div{
+    width: 105px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+
+

@@ -20,14 +20,12 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+            "assets": [              
+  "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -84,18 +82,21 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+                
+  "src/assets"
+              
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+  "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a2d0ae24-3ccf-4ff3-a1f3-0c528e7522f1"
   }
 }
