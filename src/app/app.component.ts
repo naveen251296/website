@@ -11,7 +11,7 @@ import { AppModule } from './app.module';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // standalone:false,
-   imports: [CommonModule, RouterOutlet, HeaderComponent,]
+   imports: [CommonModule, RouterOutlet,]
 })
 export class AppComponent implements OnInit {
   title = 'FirstAngular';

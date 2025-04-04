@@ -10,6 +10,6 @@ import { FooterComponent } from '../../components/footer/footer.component';
 })
 export class ContactComponent {
 UserName :string ='Naveenkumar k';
-email : string = 'ex@mail.com';
-progressValue : any = [80.5,10.2,33.5,42.8,23.4,12.7,26];
+email : string = 'naveen251296@gmail.com';
+progressValue : any = [80,80,60,40,90,70];
 }

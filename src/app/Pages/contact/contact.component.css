@@ -8,21 +8,25 @@
     height: 953px;
     background-color:#ffffff;
     margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
     box-shadow: 0px 0px 16px 0px;;
 }
 .Workdetails{
   width: 65%;
 }
 .Experience{   
-    width: 100%;
+    width: 94%;
     height: 530px;
     background-color: #ffffff;
     box-shadow: 0px 0px 16px 0px;;
     padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .Education{
-  width: 100%;
-  height: 372px;
+  width: 94%;
+  height: 353px;
   background-color: #ffffff;
   box-shadow: 0px 0px 16px 0px;;
   padding: 15px;
@@ -35,7 +39,7 @@
 .Profilename {
     color: #212726;
     position: absolute;
-    top: 29%;
+    top: 38%;
     left: 3%;
     font-size: 17px;
 }
@@ -73,5 +77,13 @@
     background-color: skyblue;
     border-radius: 10px;
     transition: width 1s else;
-
+    text-align: center;
+  }
+  .textButtonstyle{
+    background-color: rgb(32, 146, 95);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: auto;
   }

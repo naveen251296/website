@@ -8,16 +8,17 @@ import { InvoiceComponent } from './Pages/invoice/invoice.component';
 import { RoutingComponent } from './Pages/routing/routing.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'Home', component: HomeComponent },
+    // { path: '', component: HomeComponent },
+    // { path: 'Home', component: HomeComponent },
     
-    { path: 'Invoice', component: InvoiceComponent },
+    // { path: 'Invoice', component: InvoiceComponent },
     
-    { path: 'Routing', component: RoutingComponent },
+    // { path: 'Routing', component: RoutingComponent },
     
-    { path: 'Demo', component: DemoComponent },
+    // { path: 'Demo', component: DemoComponent },
     
-    { path: 'Contact', component: ContactComponent }
+    // { path: 'Contact', component: ContactComponent }
     
+    { path: '', component: ContactComponent }
 ];
 
